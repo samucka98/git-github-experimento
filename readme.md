@@ -11,7 +11,7 @@
 * Dica para criar arquivo com mais facilidade.
 > `touch {nome do arquivo com extensão}`
 
-* Adicionar um ponto.
+* Adicionar um ponto, prepara arquivo para commit.
 > `git add {nome do arquivo com extenção}`
 
 * Adicionar tudo.
@@ -19,6 +19,9 @@
 
 * Efetivar a adição e documentar.
 > `git commit -m "mensagem"`
+
+* Efetivar uma modificação e documentar
+> `git commit -am "mensagem"`
 
 ---
 ## Monitorar
@@ -67,3 +70,12 @@ Deletar branch no topico abaixo.
 
 * Enviar(Empurrar) o projeto local adicionado ao repositório no github.
 > `git push -u origin master` // Como é a primeira vez é necessário utilizar o s parametros: `-u origin master`
+
+---
+## Contribuir em algum projeto em andamento.
+
+* Adicionando o repositório
+> `git clone {link}`
+
+* Criando uma branch e mudando para ela.
+> `git checkout -b {nome da branch}`
