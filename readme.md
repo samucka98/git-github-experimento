@@ -50,6 +50,9 @@ Utilizando as branch - Significa ramificação, Principal branch é a master.
 * Vizualizar todas as branch.
 > `git branch` 
 
+* Enviar branch para o repositório remoto
+> `git push --set-upstream origin MinhaNovaBrach`
+
 Deletar branch no topico abaixo.
 
 ---
