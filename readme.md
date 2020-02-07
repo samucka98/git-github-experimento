@@ -14,6 +14,9 @@
 * Adicionar um ponto.
 > `git add {nome do arquivo com extenção}`
 
+* Adicionar tudo.
+> `git add .`
+
 * Efetivar a adição e documentar.
 > `git commit -m "mensagem"`
 
