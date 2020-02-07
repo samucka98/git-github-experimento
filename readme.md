@@ -97,3 +97,6 @@ Deletar branch no topico abaixo.
 
 * Caso a remoção não tenha passado por commits
 > `git checkout -- {nome do arquivo com extensão}`
+
+* Se passou por commit
+> `git checkout {hash} -- {nome do arquivo com extensão}`
