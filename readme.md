@@ -12,7 +12,7 @@
 > `touch {nome do arquivo com extensão}`
 
 * Adicionar um ponto, prepara arquivo para commit.
-> `git add {nome do arquivo com extenção}`
+> `git add {nome do arquivo com extensão}`
 
 * Adicionar tudo.
 > `git add .`
@@ -44,7 +44,7 @@ Utilizando as branch - Significa ramificação, Principal branch é a master.
 * Criar.
 > `git branch {nome da branch: ex: feature/cart}`
 
-* Alternar entre branch's
+* Alternar entre branch's, manipula linha do tempo.
 > `git chekout {nome da branch}`
 
 * Vizualizar todas as branch.
@@ -79,3 +79,21 @@ Deletar branch no topico abaixo.
 
 * Criando uma branch e mudando para ela.
 > `git checkout -b {nome da branch}`
+
+---
+## Puxar atualizações feitas por outros desenvolvedores.
+
+* Puxa todas as alterações(para realizar esta operação é recomendáve todos devem atualizar o projeto para evitar conflitos).
+> `git pull`
+
+---
+## Voltando determinado arquivo na linha do tempo
+
+* Recuperando arquivo
+> `git checkout {hash} -- {nome do arquivo com extensão}`
+
+---
+## Recuperar arquivo deletado.
+
+* Caso a remoção não tenha passado por commits
+> `git checkout -- {nome do arquivo com extensão}`
