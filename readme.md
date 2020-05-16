@@ -45,7 +45,7 @@ Utilizando as branch - Significa ramificação, Principal branch é a master.
 > `git branch {nome da branch: ex: feature/cart}`
 
 * Alternar entre branch's, manipula linha do tempo.
-> `git chekout {nome da branch}`
+> `git checkout {nome da branch}`
 
 * Vizualizar todas as branch.
 > `git branch` 
