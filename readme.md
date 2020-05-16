@@ -103,3 +103,17 @@ Deletar branch no topico abaixo.
 
 * Se passou por commit
 > `git checkout {hash} -- {nome do arquivo com extensão}`
+
+## Atuaizar ghpages
+
+* Entrar na branch gh-pages
+> `git-checkout gh-pages`
+
+* Trazendo todas as atualizações da branch master
+> `git rebase master`
+
+* Efetivando as mudanças no repositório remoto
+> `git Push Origin gh-pages`
+
+* Retornando a branch principal
+> `git checkout master`
